@@ -1,0 +1,29 @@
+.selector-theme {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+button:hover {
+    filter: drop-shadow(1px 1px 0.2rem #242424);
+    opacity: 1;
+}
+
+.dark-btn-theme {
+    color: rgba(250, 235, 215, 0.5);
+}
+
+.dark-btn-theme:hover {
+    filter: drop-shadow(1px 1px .5rem antiquewhite);
+}

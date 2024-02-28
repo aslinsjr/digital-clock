@@ -1,0 +1,27 @@
+.clock-container{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    box-shadow: 5px 5px 100px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 5rem;
+    padding: 2rem;
+    font-family: "Kode Mono", monospace;
+    color: antiquewhite;
+    filter: drop-shadow(1px 1px 1rem #242424);
+}
+
+#dark {
+    background-color: #242424;
+    color: antiquewhite;
+}
+
+#light {
+    background-color: antiquewhite;
+    color: #242424;
+}
