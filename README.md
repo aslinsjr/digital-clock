@@ -1,4 +1,4 @@
-# Challenge React30 - Project 1: ID card generator
+# Challenge React30 - Project 2: Digital Clock
 Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatre59.medium.com/react-30-project-3-building-a-digital-clock-app-with-react-js-3b198962e92c)
 
 
