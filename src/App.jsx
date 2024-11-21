@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import ClockComponent from './components/ClockComponent'
 import ThemeComponent from './components/ThemeComponent'
@@ -12,6 +12,12 @@ function App() {
   const themeId = (e) => {
     setTheme(e.target.id)
   }
+
+  useEffect(() => {
+    if(window.matchMedia("(prefers-color-scheme:dark)").matches) {
+      setTheme("dark-theme-btn")
+    }
+  },[])
 
   return (
     <div className={theme === "dark-theme-btn" ? "container dark-theme" : "container"}>
